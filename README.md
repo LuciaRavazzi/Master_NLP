@@ -20,9 +20,9 @@ state utilizzate librerie già fornite da python oppure installate tramite il co
    I jupyter sono identici tranne per la differenza legata all'uso di un vocabolario.
    Per poter riprodurre tutti i risultati, è necessario definire il corretto path per il file di train 'train.ft.txt' che
    viene passato alla funzione loader appartenente alla classe preprocessing.
-   Poiché la classificazione è stata implementata in cross validation, si è utilizzato solo il dataset di training fornito come se fosse quello totale. <br>
+   Poiché la classificazione è stata implementata in cross validation, si è utilizzato solo il dataset di training fornito come se fosse quello totale. <br><br>
 💡 Per la sentiment supervised analysis vi è un solo file jupyter: Classification_sentiment.ipybn
-   Per riprodurre i risultati, è necessario caricare il file legato al training set 'train.ft.txt' con la stessa procedura di cui sopra.<br>
+   Per riprodurre i risultati, è necessario caricare il file legato al training set 'train.ft.txt' con la stessa procedura di cui sopra.<br><br>
 💡 Per la classificazione con le reti neurali, sono stati implementati due algoritmi: BERT e FastText.
    Per riprodurre i risultati di BERT è necessario solo caricare il file di train 'train.ft.txt' come descritto in precedenza.
    Per FastText, è necessario utilizzare il terminale di ubuntu. In particolare, il dataset di training
