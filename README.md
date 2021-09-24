@@ -1,6 +1,8 @@
 
 # Classificazione di Amazon reviews 
 
+Il dataset può essere scaricato gratuitamente da: https://www.kaggle.com/bittlingmayer/amazonreviews.
+
 Scopo: il dataset fornito è caratterizzato da reviews etichettate in modo binario. Questo permette di
 implementare delle tecniche di classificazione. 
 A tale scopo, si sono costruiti tre diversi approcci: classificazione pura, supervised sentiment analysis
