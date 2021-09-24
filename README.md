@@ -1,5 +1,5 @@
 
-# CLASSIFICAZIONE 
+# Classifcazione di Amazon reviews 
 
 Scopo: il dataset fornito è caratterizzato da reviews etichettate in modo binario. Questo permette di
 implementare delle tecniche di classificazione. 
