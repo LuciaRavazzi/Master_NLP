@@ -1,0 +1,26 @@
+****** CLASSIFICAZIONE: LIBRERIE UTILIZZATE ******
+
+Librerie e funzioni utilizzate per la classificazione pura:
+- time, pandas, numpy, random, string, re
+- Grafici: matplotlib.pyplot 
+- NLP pipeline: nltk, spacy,  demoji (!pip install demoji)
+- Rappresentazioni: 
+	- from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+	- from sklearn.feature_selection import chi2, SelectPercentile
+- Classificatori.
+	- from sklearn.neighbors import KNeighborsClassifier
+	- from sklearn.linear_model import LogisticRegression, SGDClassifier
+	- from sklearn.svm import LinearSVC	
+	- from sklearn.tree import DecisionTreeClassifier
+	- from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
+	- from sklearn.naive_bayes import GaussianNB, MultinomialNB, BernoulliNB
+	- from sklearn.metrics import classification_report, accuracy_score, confusion_matrix, f1_score
+	- from sklearn.model_selection import cross_validate
+
+Librerie e funzioni utilizzate per la sentiment supervised analysis:
+- from afinn import Afinn (!pip install afinn)
+- from nltk.corpus import opinion_lexicon
+- from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer (!pip install vaderSentiment)
+
+Librerie e funzioni utilizzate per Bert e FastText:
+- from ktrain import text (!pip install ktrain)
